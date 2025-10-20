@@ -6,4 +6,4 @@ def printdir(dir):
 
 print('Current working directory is :', os.getcwd())
 input('Press enter to continue...')
-printdir('C:/Users/santony/Documents/')
+printdir(os.getcwd())
