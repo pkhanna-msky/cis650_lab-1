@@ -1,6 +1,6 @@
 import csv
 with open('accounts.csv', 'r', newline='') as accounts:
-    print(f'{"Account":<10}{"Name":<10}{"Balance":>10}') #header 
+    #print(f'{"Account":<10}{"Name":<10}{"Balance":>10}') #header 
     reader = csv.reader(accounts)
     print(reader)
     for record in reader:  
